@@ -69,6 +69,12 @@ $white: #EAE7F3;
         padding: .55rem 4rem;
         border-radius: 25px;
         box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.30);
+        transition: 0.3s ease-in;
+    }
+
+    .btn:hover {
+        background-color: $magenta;
+        color: #fff;
     }
 }
 
@@ -91,10 +97,20 @@ $white: #EAE7F3;
         justify-content: center;
         align-items: center;
         margin: 0 .45rem;
+        transition: 0.3s ease-in;
+    }
+
+    li:hover {
+        border-color: $magenta;
     }
 
     a {
         color: #fff;
+        transition: 0.3s ease-in;
+    }
+
+    a:hover {
+        color: $magenta;
     }
 }
 

@@ -74,6 +74,13 @@
   border-radius: 25px;
   -webkit-box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
           box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
+  -webkit-transition: 0.3s ease-in;
+  transition: 0.3s ease-in;
+}
+
+.hero-content .btn:hover {
+  background-color: #e882e8;
+  color: #fff;
 }
 
 .socials {
@@ -106,10 +113,22 @@
       -ms-flex-align: center;
           align-items: center;
   margin: 0 .45rem;
+  -webkit-transition: 0.3s ease-in;
+  transition: 0.3s ease-in;
+}
+
+.social-links li:hover {
+  border-color: #e882e8;
 }
 
 .social-links a {
   color: #fff;
+  -webkit-transition: 0.3s ease-in;
+  transition: 0.3s ease-in;
+}
+
+.social-links a:hover {
+  color: #e882e8;
 }
 
 @media (min-width: 1260px) {
